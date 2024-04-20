@@ -69,14 +69,14 @@ button img{
 }
 #error1{
     color: hsl(0, 100%, 67%);
-    font-size: 0.5em;
+    font-size: 0.6em;
     font-style: italic;
     position: absolute;
     top:20%;
 }
 #error2{
     color: hsl(0, 100%, 67%);
-    font-size: 0.5em;
+    font-size: 0.6em;
     font-style: italic;
     position: absolute;
     top:20%;
@@ -84,7 +84,7 @@ button img{
 }
 #error3{
     color: hsl(0, 100%, 67%);
-    font-size: 0.5em;
+    font-size: 0.6em;
     font-style: italic;
     position: absolute;
     top:20%;
