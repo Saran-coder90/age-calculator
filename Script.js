@@ -109,9 +109,12 @@ function calResult()
         }
     }
     console.log(`${nOfDays} ${nOfMonths} ${nofYear}`);
-    load(nofYear,resultYear);
-    load(nOfMonths,resultMonth);
-    load(nOfDays,resultDays);
+    if (nofYear != undefined && nOfMonths != undefined && nOfDays != undefined){
+        load(nofYear,resultYear);
+        load(nOfMonths,resultMonth);
+        load(nOfDays,resultDays);
+    }
+    
 
 }
 
@@ -136,7 +139,7 @@ function isLeap()
 
 function load(num,result)
 {
-    if(day.innerHTML != "" && month.innerHTML != "" && year.innerHTML != ""){
+    
         let j=0;
         let interval=window.setInterval(()=>{
         result.innerHTML=j;
@@ -147,7 +150,6 @@ function load(num,result)
         }
     },50)
 
-    }  
     
 }
 
