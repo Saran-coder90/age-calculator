@@ -27,6 +27,7 @@ form .day,.month,.year{
 }
 input{
     width:100%;
+
     padding: 0.6em;
     outline: none;
     border: hsl(0, 0%, 86%) solid 1px;
