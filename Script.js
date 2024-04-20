@@ -136,8 +136,9 @@ function isLeap()
 
 function load(num,result)
 {
-    let j=0;
-    let interval=window.setInterval(()=>{
+    if(day.innerHTML != "" && month.innerHTML != "" && year.innerHTML != ""){
+        let j=0;
+        let interval=window.setInterval(()=>{
         result.innerHTML=j;
         j+=1;
         if(j==num)
@@ -145,6 +146,9 @@ function load(num,result)
             clearInterval(interval);
         }
     },50)
+
+    }  
+    
 }
 
 
