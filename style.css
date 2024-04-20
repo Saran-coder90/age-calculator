@@ -1,0 +1,98 @@
+body{
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.outer {
+     background-color:hsl(0, 0%, 100%) ;
+     align-self: center;
+     padding: 2em;
+     position: relative;
+     border-radius: 1em;
+     border-bottom-right-radius: 10em;
+}
+form{
+    display: flex;
+    color: hsl(0, 1%, 44%);
+    font-size: x-small;
+}
+form .day,.month,.year{
+    width:20%;
+    margin-right: 3em;
+    margin-bottom: 4em;
+}
+input{
+    width:100%;
+    padding: 0.6em;
+    outline: none;
+    border: hsl(0, 0%, 86%) solid 1px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+button{
+    background-color:  hsl(259, 100%, 65%);
+    border-radius: 100%;
+    border: none;
+    padding: 0.5em;
+    position:absolute;
+    top:25%;
+    right: 2.4em;
+}
+button img{
+    border-radius: 100%;
+    width:2.125em;
+    height: 2em;
+}
+.interval{
+    display: flex;
+}
+.interval div{
+    width:90%;
+    border-bottom: hsl(0, 0%, 86%) solid 1px;
+}
+.result div{
+    display: flex;
+    font-size: 32px;
+}
+.result div h1{
+    margin:0;
+}
+.result div :nth-child(1)
+{
+    color:hsl(259, 100%, 65%);
+}
+#error1{
+    color: hsl(0, 100%, 67%);
+    font-size: 0.65em;
+    font-style: italic;
+    position: absolute;
+    top:20%;
+}
+#error2{
+    color: hsl(0, 100%, 67%);
+    font-size: 0.65em;
+    font-style: italic;
+    position: absolute;
+    top:20%;
+    left:29%;
+}
+#error3{
+    color: hsl(0, 100%, 67%);
+    font-size: 0.65em;
+    font-style: italic;
+    position: absolute;
+    top:20%;
+    right: 33%;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding: 2em;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
