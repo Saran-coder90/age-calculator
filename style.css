@@ -20,7 +20,7 @@ body{
 form{
     display: flex;
     color: hsl(0, 1%, 44%);
-    font-size: x-small;
+    font-size: xx-small;
 }
 form .day,.month,.year{
     width:20%;
@@ -29,12 +29,11 @@ form .day,.month,.year{
 }
 input{
     width:100%;
-
     padding: 0.6em;
     outline: none;
     border: hsl(0, 0%, 86%) solid 1px;
     border-radius: 5px;
-    font-weight: 700;
+    font-weight: 600;
 }
 button{
     background-color:  hsl(259, 100%, 65%);
@@ -59,7 +58,7 @@ button img{
 }
 .result div{
     display: flex;
-    font-size: 32px;
+    font-size: 30px;
 }
 .result div h1{
     margin:0;
@@ -70,14 +69,14 @@ button img{
 }
 #error1{
     color: hsl(0, 100%, 67%);
-    font-size: 0.65em;
+    font-size: 0.5em;
     font-style: italic;
     position: absolute;
     top:20%;
 }
 #error2{
     color: hsl(0, 100%, 67%);
-    font-size: 0.65em;
+    font-size: 0.5em;
     font-style: italic;
     position: absolute;
     top:20%;
@@ -85,7 +84,7 @@ button img{
 }
 #error3{
     color: hsl(0, 100%, 67%);
-    font-size: 0.65em;
+    font-size: 0.5em;
     font-style: italic;
     position: absolute;
     top:20%;
